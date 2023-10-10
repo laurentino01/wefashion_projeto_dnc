@@ -31,9 +31,12 @@ Foi desenvolvido uma espécie de framework para este projeto visando a organiza�
     - [Espaçamentos](https://github.com/laurentino01/wefashion_projeto_dnc#espa%C3%A7amentos)
  - [Componentes](https://github.com/laurentino01/wefashion_projeto_dnc#componentes)
     - [Botões](https://github.com/laurentino01/wefashion_projeto_dnc#bot%C3%B5es)
- - [Tecnologiaas utilizadas](https://github.com/laurentino01/wefashion_projeto_dnc#Link)
+ - [Tecnologias utilizadas](https://github.com/laurentino01/wefashion_projeto_dnc#Link)
       
-  
+
+
+## Link
+https://projetowefashiontech04.netlify.app/
   
 ## Protótipo
 

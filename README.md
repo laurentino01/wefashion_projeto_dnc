@@ -41,6 +41,7 @@ Foi desenvolvido uma espécie de framework para este projeto visando a organiza�
 ## Getting Started
 Neta seção você encontrará a explicação de como inciar, trabalhar e como fazer a pull request de forma que mantenha a organização. 
 
+
 ### iniciando
 Passo a passo para iniciar o projeto
  1. Faça um fork deste projeto
@@ -91,8 +92,27 @@ A classe `.row` controla as cols e deve ser destinada às seções ex: sobre nos
 
 
 ## Variáveis
+As variáveis vão auxiliar na padronização do design. nos textos e espaçamentos esta sendo usado o atributo `clamp()` para que o design fique fluído e haja pouca ou nenhuma utilização de media query.  
+
+!! Caso haja necessidade de media query, utilizar os padrões do google: 1440px, 1024px, 768px, 425px, 375px, 320px  !!
 ### Textos
+`
+--title: "";
+  --subtitle: "";
+  --paragraph: "";`
 ### Cores
+`--primary-color: "";
+  --secondary-color: "";
+  --dark: " ";
+  --light: " ";
+`
 ### Espaçamentos
+`
+  --paddingX: clamp(0.5rem, -0.0714rem + 2.8571vw, 2.5rem);
+  --paddingY: "";
+  --marginX: "";
+  --marginY: "";
+  --gap: "";`
+
 ## Componentes
 ### Botões

@@ -1,6 +1,8 @@
 # We Fashion - Escola de moda.
 Site da escola de moda We Fashion para o projeto prático da DNC.
 
+Documentação feita para o grupo trabalhar com mais organização e padronização do site. 
+
 ## Referência
 
 - [Protótipo](https://github.com/laurentino01/wefashion_projeto_dnc#prot%C3%B3tipo)

@@ -3,19 +3,19 @@ Site feita para a escola de moda we fashion para o projeto prático da dnc.
 
 ## Referência
 
-- [Protótipo](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Getting Started](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
-    - [iniciando](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
-    - [trabalhando](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
-    - [entregando](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+- [Protótipo](https://github.com/laurentino01/wefashion_projeto_dnc#prot%C3%B3tipo)
+ - [Getting Started](https://github.com/laurentino01/wefashion_projeto_dnc#getting-started)
+    - [Iniciando](https://github.com/laurentino01/wefashion_projeto_dnc#iniciando)
+    - [Trabalhando](https://github.com/laurentino01/wefashion_projeto_dnc#trabalhando)
+    - [Entregando](https://github.com/laurentino01/wefashion_projeto_dnc#entregando)
 
- - [Layout](https://github.com/matiassingers/awesome-readme)
- - [Variaveis](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-    - [textos](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-    - [cores](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-    - [espaçamentos](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
- - [componentes](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-    - [Botão](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+ - [Layout](https://github.com/laurentino01/wefashion_projeto_dnc#layout)
+ - [Variáveis](https://github.com/laurentino01/wefashion_projeto_dnc#vari%C3%A1veis)
+    - [Textos](https://github.com/laurentino01/wefashion_projeto_dnc#textos)
+    - [Cores](https://github.com/laurentino01/wefashion_projeto_dnc#cores)
+    - [Espaçamentos](https://github.com/laurentino01/wefashion_projeto_dnc#espa%C3%A7amentos)
+ - [Componentes](https://github.com/laurentino01/wefashion_projeto_dnc#componentes)
+    - [Botões](https://github.com/laurentino01/wefashion_projeto_dnc#bot%C3%B5es)
 ## Protótipo
 ## Getting Started
 ### iniciando

@@ -16,3 +16,15 @@ Site feita para a escola de moda we fashion para o projeto prático da dnc.
     - [espaçamentos](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
  - [componentes](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
     - [Botão](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+## Protótipo
+## Getting Started
+### iniciando
+### trabalhando
+### entregando
+## Layout
+## Variáveis
+### Textos
+### Cores
+### Espaçamentos
+## Componentes
+### Botões

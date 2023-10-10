@@ -52,11 +52,15 @@ Passo a passo para iniciar o projeto
  1. No arquivo `index.hmtl` há marcações das seções. Trabalhe apenas na que se propôs a trabalhar.
  2. Na pasta `css` no arquivo `index.css` há configurações gerais que vão alterar todo estilo do projeto como: Configurações gerai, imports, layout, variaveis e os componentes. Caso haja necessidade de alterar algo é necessário avisar o grupo.
  3. Neste mesmo arquivo `index.css` na pasta `css` há as importações dos estilos de todas as outras seções, caso não haja, deve ser importado. Este arquivo está linkado com o `index.html` e apenas importanto outras partes para o index.css já será aplicado o estilo.
- 4. No arquivo Javascript é a mesma coisa. No arquivo `index.js` dentro da pasta `js` deverá conter os importes das funções criadas em arquivos diferentes, isso fará funcionar em todo o projeto.
+ 4. No arquivo Javascript Cada função deve ser feita em um arquivo, ou seja, um arquivo por função e adicionada no `<head>` com a tag script colocando o atributo `defer`
  5. Nomes de funções, classes, arquivos e pastas devem ser em inglês.
  6. Funções, pastas e arquivos deverão ser no formato Camel Case.
  7. Classes, devem ser nomeadas utilizando o padrão BEM.
 ### entregando
+ 1. Deve ser criado uma pull request com o código funcionando em seu computador.
+ 2. Suas alterações deveram estar todas contidas na branch criada e não na branch main.
+
+    
 ## Layout
 ## Variáveis
 ### Textos

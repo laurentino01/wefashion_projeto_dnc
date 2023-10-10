@@ -62,6 +62,34 @@ Passo a passo para iniciar o projeto
 
     
 ## Layout
+Para manter o design e alinhamento do site, foi criado 3 classes para auxiliar na criação do layout. 
+São elas `.container`,`.row`,`.col`
+
+A classe `.col` é destinada aos items das seções, ele se ajusta ao espaço da seção e tem comportamento responsivo.
+
+`.col{ flex-grow: 1; }`
+
+A classe `.row` controla as cols e deve ser destinada às seções ex: sobre nos, hero... 
+
+`.row{  border: 1px solid red;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  gap: 12px;
+  width: 100%; }`
+
+  A classe `.container` ja esta configurada, deve ficar em um conjunto de seções, ela mantem o espaçamento lateral e alinhamento, além de ter uma  largura maxima. 
+
+  `.container{ max-width: 1334px;
+  padding-left: var(--paddingX);
+  padding-right: var(--paddingX);
+  margin: 0 auto; }`
+
+  
+
+
 ## Variáveis
 ### Textos
 ### Cores

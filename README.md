@@ -14,6 +14,8 @@ Site
 
 Documentação feita para o grupo trabalhar com mais organização e padronização do site. 
 
+Foi desenvolvido uma espécie de framework para este projeto visando a organização do desenvolvimento. Layout, Variáveis, Organização dos arquivos... Tudo esta explicado nesta documentação. 
+
 ## Referência
 
 - [Protótipo](https://github.com/laurentino01/wefashion_projeto_dnc#prot%C3%B3tipo)
@@ -29,8 +31,14 @@ Documentação feita para o grupo trabalhar com mais organização e padronizaç
     - [Espaçamentos](https://github.com/laurentino01/wefashion_projeto_dnc#espa%C3%A7amentos)
  - [Componentes](https://github.com/laurentino01/wefashion_projeto_dnc#componentes)
     - [Botões](https://github.com/laurentino01/wefashion_projeto_dnc#bot%C3%B5es)
+  
+  
 ## Protótipo
+
+
 ## Getting Started
+Neta seção está explicando como inciar, trabalhar para manter a organização e como fazer a pull request de forma que mantenha a organização 
+
 ### iniciando
 ### trabalhando
 ### entregando

@@ -1,5 +1,8 @@
+![We Fashion](https://github.com/laurentino01/wefashion_projeto_dnc/assets/81561554/7dfa73ee-0809-4b72-99a2-63abc97380c3)
+
 # We Fashion - Escola de moda.
-Site da escola de moda We Fashion para o projeto prático da DNC.
+Site
+ da escola de moda We Fashion para o projeto prático da DNC.
 
 Documentação feita para o grupo trabalhar com mais organização e padronização do site. 
 

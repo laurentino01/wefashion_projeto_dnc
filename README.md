@@ -1,5 +1,5 @@
 # We Fashion - Escola de moda.
-Site feita para a escola de moda we fashion para o projeto prático da dnc.
+Site feita para a escola de moda we fashion para o projeto prático da DNC.
 
 ## Referência
 

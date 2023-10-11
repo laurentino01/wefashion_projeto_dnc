@@ -13,36 +13,46 @@
     <meta name="author" content="Grupo Tech-4 DNC" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./css/index.css" />
 
-    <script src="./js/index.js" defer></script>
+    <script src="./js/menu.js" defer></script>
+    <script src="./js/courses.js" defer></script>
 
     <title>WeFashion - Faça a sua própria moda!</title>
   </head>
   <body>
     <!-- MENU -->
-    <header class="container"></header>
+    <header id="header" class="container"></header>
+    <button class="btn-primary">matricule-se</button>
     <main class="container">
       <!-- HERO -->
-      <section class="row">
-        <div class="col">
-          <h1>Faça sua propria moda</h1>
-          <p>
-            nos da we fashion acreditamos que fazer sua propria moda é algo
-            importante pq mexe com sua uto estima
-          </p>
-          <button id="teste" type="button" onclick="teste()">
-            matricule-se
-          </button>
-        </div>
-        <div class="col">
-          <h1>ola</h1>
-        </div>
-        <div class="col">
-          <h1>ola</h1>
-        </div>
-      </section>
+      <section id="hero"></section>
+
+      <!-- RESULTS -->
+      <section id="results"></section>
+
+      <!-- TESTEMONIALS -->
+      <section id="testemonials"></section>
+
+      <!-- WHY CHOOSE US -->
+      <section id="why_choose_us"></section>
+
+      <!-- COURSES -->
+      <section id="courses"></section>
+
+      <!-- SERVICES -->
+      <section id="services"></section>
     </main>
-    <footer></footer>
+
+    <!-- FOOTER -->
+    <footer id="footer"></footer>
   </body>
 </html>

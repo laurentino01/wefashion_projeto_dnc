@@ -1,28 +1,34 @@
 /* Imports - Ao importar as seções de outros arquivos css, ele se intega com o principal */
 @import url("./header.css");
 @import url("./footer.css");
+@import url("./results.css");
+@import url("./testemonials.css");
+@import url("./why-choose-us.css");
+@import url("./courses.css");
+@import url("./services.css");
+@import url("./footer.css");
 
 /* varives */
 :root {
-  /* colores */
-  --primary-color: "";
-  --secondary-color: "";
-  --dark: " ";
-  --light: " ";
+  /* cores */
+  --primary-color: #feae11;
+  --secondary-color: #152536;
+  --light_pimary: #fff;
+  --light_secondary: #f0f0f0;
 
   /* espaçamentos */
 
   --paddingX: clamp(0.5rem, -0.0714rem + 2.8571vw, 2.5rem);
-  --paddingY: "";
+  --paddingY: 80px;
   --marginX: "";
   --marginY: "";
   --gap: "";
 
   /* textos */
 
-  --title: "";
-  --subtitle: "";
-  --paragraph: "";
+  --title-size: clamp(2.625rem, 2.0893rem + 2.6786vw, 4.5rem);
+  --subtitle-size: clamp(2rem, 1.4643rem + 2.6786vw, 3.875rem);
+  --paragraph-size: clamp(1rem, 0.9643rem + 0.1786vw, 1.125rem);
 }
 
 /* configurações gerais */
@@ -31,6 +37,7 @@
   margin: 0;
   padding: 0;
   box-sizing: 0;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 html,
@@ -47,7 +54,6 @@ body {
 }
 
 .row {
-  border: 1px solid red;
   height: auto;
   display: flex;
   flex-wrap: wrap;
@@ -63,4 +69,13 @@ body {
 
 /* componentes */
 .btn-primary {
+  cursor: pointer;
+  background-color: var(--secondary-color);
+  color: var(--light_secondary);
+  border: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  height: 40px;
+  width: 200px;
+  font-weight: bold;
 }

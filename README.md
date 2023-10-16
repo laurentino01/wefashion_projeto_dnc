@@ -39,7 +39,11 @@ Foi desenvolvido uma espécie de framework para este projeto visando a organiza�
 https://projetowefashiontech04.netlify.app/
   
 ## Protótipo
+### Desktop 
+https://www.figma.com/proto/5oUUlDi04SgjwEoyDDrAPB/We-fashion?type=design&node-id=72-530&t=dMgHxdeE2Ab4PjBt-1&scaling=scale-down-width&page-id=72%3A2&mode=design
 
+### Mobile 
+https://www.figma.com/proto/5oUUlDi04SgjwEoyDDrAPB/We-fashion?type=design&node-id=72-735&t=QMBg6bntWodbacPj-1&scaling=min-zoom&page-id=72%3A725&mode=design
 
 ## Getting Started
 Neta seção você encontrará a explicação de como inciar, trabalhar e como fazer a pull request de forma que mantenha a organização. 

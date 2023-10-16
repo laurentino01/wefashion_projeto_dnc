@@ -36,7 +36,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: 0;
+  box-sizing: border-box;
   font-family: "Roboto Condensed", sans-serif;
 }
 
@@ -55,6 +55,7 @@ body {
 
 .row {
   height: auto;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   padding-top: 20px;

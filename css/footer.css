@@ -5,6 +5,10 @@
 #footer .col {
   flex-grow: unset;
 }
+#footer a {
+  text-decoration: none;
+  color: white;
+}
 #footer .footer__links,
 #footer .footer__images {
   background-color: var(--secondary-color);
@@ -29,14 +33,16 @@
   flex-wrap: wrap;
   gap: 20px;
 }
-#footer .footer__links ul a {
-  text-decoration: none;
-  color: white;
-}
+
 #footer .footer__links hr {
   position: absolute;
   bottom: 0;
   width: 70%;
+}
+
+#footer .footer__end {
+  color: white;
+  text-align: center;
 }
 @media (max-width: 768px) {
   #footer .footer__links ul {

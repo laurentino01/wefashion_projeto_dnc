@@ -5,12 +5,15 @@
 #footer .col {
   flex-grow: unset;
 }
+#footer .footer__socials img {
+  margin: 10px;
+}
 #footer a {
   text-decoration: none;
   color: white;
 }
 #footer .footer__links,
-#footer .footer__images {
+#footer .footer__socials {
   background-color: var(--secondary-color);
 }
 #footer .footer__links {

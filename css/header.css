@@ -1,0 +1,126 @@
+/* Reset de estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FAFAFA;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF; 
+    padding: 10px 50px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    margin-left: 30px; 
+}
+
+.logo img {
+    margin-right: 170px;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+    font-size: 16px;
+}
+
+.menu li a:hover {
+    background-color: #f0f0f0;
+}
+
+.cta-button {
+    background: #152536;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #232323;
+}
+
+
+
+/* ... [outros estilos] ... */
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .logo img {
+        margin-right: 0;
+        max-width: 100%;
+    }
+
+    .hamburger {
+        display: flex;
+        cursor: pointer;
+    }
+
+    .menu {
+        display: none; /* ocultar por padrão */
+        flex-direction: column;
+        gap: 10px;
+        position: absolute; 
+        top: 50px; 
+        right: 10px; 
+        background-color: #fff;
+        border: 1px solid #ccc;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .menu li {
+        padding: 5px 10px;
+        width: 100%; 
+        text-align: center;
+    }
+    
+    .cta-button {
+        width: 100%;
+        border-radius: 0;
+    }
+}

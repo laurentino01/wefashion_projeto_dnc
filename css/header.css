@@ -45,13 +45,16 @@ nav ul {
   font-size: 16px;
 }
 
-.menu li a:hover {
+.menu li a:hover + :not(button) {
   background-color: #f0f0f0;
+}
+.cta-button a,
+.cta-button a:visited {
+  color: var(--light_pimary);
 }
 
 .cta-button {
   background: #152536;
-  color: white;
   border: none;
   padding: 10px 25px;
   border-radius: 5px;

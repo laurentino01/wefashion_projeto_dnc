@@ -20,17 +20,52 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap"
       rel="stylesheet"
     />
-
+    <link rel="icon" type="image/x-icon" href="/public/images/favicon.svg" />
     <link rel="stylesheet" href="./css/index.css" />
 
-    <script src="./js/menu.js" defer></script>
     <script src="./js/courses.js" defer></script>
+    <script src="./js/header.js" defer></script>
 
     <title>WeFashion - Faça a sua própria moda!</title>
   </head>
   <body>
     <!-- MENU -->
-    <header id="header" class="container"></header>
+    <header id="header" class="container">
+      <!-- Navbar -->
+      <nav>
+        <div class="logo">
+          <a href="https://projetowefashiontech04.netlify.app/">
+            <img
+              src="/public/images/header/foto.svg"
+              alt="FASHION ESCOLA DE MODA"
+            />
+          </a>
+        </div>
+        <div class="hamburger" onclick="toggleMenu()">
+          <img
+            src="./public/images/header/menu-mobile.svg"
+            alt="Icone para abrir menu mobile"
+          />
+        </div>
+        <ul class="menu hidden">
+          <li><a href="#hero">Início</a></li>
+          <li><a href="#results">Projetos dos alunos</a></li>
+          <li><a href="#testimonials">Depoimentos</a></li>
+          <li><a href="#why_choose_us">Diferencial</a></li>
+          <li><a href="#courses">Cursos</a></li>
+          <li>
+            <button class="cta-button" onclick="matricular()">
+              <a
+                target="_blank"
+                href="https://api.whatsapp.com/send?phone=5512988880301&text=Ol%C3%A1!%20Gostaria%20de%20me%20matricular%20em%20um%20de%20seus%20cursos.%20"
+              >
+                MATRICULE-SE
+              </a>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
     <main class="container">
       <!-- HERO -->
@@ -40,7 +75,7 @@
       <section id="results"></section>
 
       <!-- TESTEMONIALS -->
-      <section id="testemonials"></section>
+      <section id="testimonials"></section>
 
       <!-- WHY CHOOSE US -->
       <section id="why_choose_us"></section>
@@ -53,6 +88,60 @@
     </main>
 
     <!-- FOOTER -->
-    <footer id="footer"></footer>
+    <footer id="footer" class="container">
+      <div class="row">
+        <div class="col">
+          <a href="https://projetowefashiontech04.netlify.app/">
+            <img
+              src="/public/images/footer/logo-footer.svg"
+              alt="Logo We fashion"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="row footer__socials">
+        <div class="col">
+          <a href="https://www.facebook.com/wefashion.sjc/" target="_blank">
+            <img
+              src="./public/images/footer/footer-facebook.svg"
+              alt="Icone com link para facebook"
+            />
+          </a>
+          <a href="https://www.instagram.com/wefashion.sjc/" target="_blank">
+            <img
+              src="./public/images/footer/footer-instagram.svg"
+              alt="Icone com link para instagram"
+            />
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UCGh9zkInU9F0zcNyCDYJFoQ"
+            target="_blank"
+          >
+            <img
+              src="./public/images/footer/footer-youtube.svg"
+              alt="Icone com link para youtube"
+            />
+          </a>
+        </div>
+        <div class="row footer__links">
+          <div class="col">
+            <ul>
+              <li><a href="#hero">Início</a></li>
+              <li><a href="#results"> Projetos dos alunos</a></li>
+              <li><a href="#testimonials">Depoimentos</a></li>
+              <li><a href="#why_choose_us">Diferencial</a></li>
+              <li><a href="#courses">Cursos</a></li>
+            </ul>
+          </div>
+          <hr />
+        </div>
+        <div class="row footer__end">
+          <p>
+            R. Leão, 170 - Jardim Satélite, São José dos Campos - SP, 12230-620
+            - Tel: (12) 98888-0301
+          </p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

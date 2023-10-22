@@ -51,7 +51,7 @@ nav ul {
 }
 .cta-button a,
 .cta-button a:visited {
-  color: var(--light_pimary);
+  color: var(--light_primary);
 }
 
 .cta-button {

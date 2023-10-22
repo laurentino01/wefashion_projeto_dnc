@@ -50,7 +50,7 @@ body {
 }
 
 /* layout */
-.container {
+.container:not(#header) {
   max-width: 1334px;
   padding-left: var(--paddingX);
   padding-right: var(--paddingX);

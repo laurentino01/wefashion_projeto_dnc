@@ -1,12 +1,6 @@
 #hero {
   color: var(--secondary-color);
-  height: 600px;
-
-  /* margin-left: 45px; */
-  /* margin-top: 2rem; */
-}
-
-#hero .row {
+  height: 650px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -29,18 +23,15 @@
   z-index: 0;
 }
 
-/* #hero section h1,
-p {
-  margin-left: 25px;
-} */
-
 #hero h1 {
   font-size: var(--title-size);
 }
 
 #hero p {
   font-size: var(--paragraph-size);
-  margin: 20px auto 40px auto;
+  max-width: 70%;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 #hero #nova,
@@ -72,4 +63,36 @@ p {
   /*  width: 720px; */
   /* margin-top: 13rem; */
   /*  position: absolute; */
+}
+
+@media (max-width: 768px) {
+  #hero {
+    height: auto;
+    margin-top: -40px;
+    margin-bottom: 120px;
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+    align-items: start;
+  }
+  #hero .col:nth-child(1) {
+    margin-right: 0px;
+    width: 100%;
+    height: fit-content;
+    align-self: flex-start;
+    margin-top: -70%;
+  }
+
+  #hero .col:nth-child(2) {
+    left: -30%;
+  }
+
+  #hero #card {
+    max-width: 100%;
+  }
+  #hero button {
+    max-width: 100%;
+  }
+  #hero p {
+    max-width: 100%;
+  }
 }

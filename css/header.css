@@ -1,4 +1,9 @@
 /* Navbar */
+#header {
+  position: relative;
+  z-index: 3;
+}
+
 nav {
   display: flex;
   justify-content: space-between;

@@ -1,5 +1,6 @@
 /* Imports - Ao importar as seções de outros arquivos css, ele se intega com o principal */
 @import url("./header.css");
+@import url("./hero.css");
 @import url("./footer.css");
 @import url("./results.css");
 @import url("./testemonials.css");
@@ -13,8 +14,9 @@
   /* cores */
   --primary-color: #feae11;
   --secondary-color: #152536;
-  --light_pimary: #fff;
+  --light_primary: #fff;
   --light_secondary: #f0f0f0;
+  --background_site: #dee2e6;
 
   /* espaçamentos */
 
@@ -44,10 +46,11 @@ html,
 body {
   overflow-x: hidden;
   scroll-behavior: smooth;
+  background-color: var(--background_site);
 }
 
 /* layout */
-.container {
+.container:not(#header) {
   max-width: 1334px;
   padding-left: var(--paddingX);
   padding-right: var(--paddingX);

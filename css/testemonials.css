@@ -1,0 +1,109 @@
+#testemonials {
+  background-color: var(--secondary-color);
+  padding: var(--paddingX);
+  z-index: -1;
+  padding-bottom: 4rem;
+}
+
+#title-reverse {
+  color: var(--light_secondary);
+  text-align: center;
+  font-size: var(--title-size);
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+#title-reverse span  {
+  color: var(--primary-color);
+}
+
+#cards_test {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 3%;
+  align-items: flex-start;
+}
+
+
+.card_test div {
+  width: 100%;
+  align-items: flex-start;
+  display: flex;
+}
+
+.cc_test {
+  position: relative;
+}
+
+
+.yw_bg {
+  background-color: var(--primary-color);
+  width: 15rem;
+  height: 13rem;
+  z-index: 0;
+  position: absolute;
+  
+}
+  #yw_bg1 {
+    left: -1rem;
+    bottom: -1rem;
+  }
+  #yw_bg2 {
+    left: 7.5rem;
+    bottom: -1rem;
+  }
+  #yw_bg3 {
+    right: -1rem;
+    bottom: 12rem;
+  }
+
+.card_test {
+  background-color: var(--light_secondary); 
+  width: 25rem;
+  height: 19rem;
+  border-radius: 0.75rem;
+  z-index: 1;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: var(--paddingX);
+  text-align: center;
+}
+
+.cc_test {
+  position: relative;
+}
+
+.card_test p {
+  font-family: Montserrat;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+.card_test b {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.cc_space {
+  height: 2rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .card_test {
+    width: 19rem;
+    height: 21rem;
+  }
+  #yw_bg2 {
+    left: 3rem;
+    bottom: -1rem;
+  }
+  #yw_bg3 {
+    right: -1rem;
+    bottom: 10.5rem;
+  }
+}

@@ -1,0 +1,105 @@
+#testimonials {
+  background-color: var(--secondary-color);
+  padding: var(--paddingX);
+  z-index: -1;
+  padding-bottom: 4rem;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#title-reverse {
+  color: var(--light_secondary);
+  text-align: center;
+  font-size: var(--title-size);
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+#title-reverse span {
+  color: var(--primary-color);
+}
+
+#testimonials .testimonials__cars-area {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+  width: 100%;
+}
+
+#testimonials .cc_test {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.yw_bg {
+  background-color: var(--primary-color);
+  width: 15rem;
+  height: 15rem;
+  z-index: 0;
+  position: absolute;
+}
+#yw_bg1 {
+  left: -15px;
+  bottom: -15px;
+}
+#yw_bg2 {
+  left: 10%;
+  bottom: -15px;
+}
+#yw_bg3 {
+  right: -15px;
+  bottom: -15px;
+}
+
+.card_test {
+  position: relative;
+  background-color: var(--light_secondary);
+  width: 380px;
+  height: 350px;
+  border-radius: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px;
+  text-align: center;
+}
+
+.card_test div:first-child {
+  align-self: flex-start;
+}
+.card_test p {
+  font-size: var(--paragraph-size);
+  /* line-height: 2rem; */
+}
+
+.card_test b {
+  font-weight: 700;
+  font-size: var(--paragraph-size);
+}
+
+.cc_space {
+  height: 2rem;
+}
+
+@media only screen and (max-width: 425px) {
+  .yw_bg {
+    width: 10rem;
+    height: 10rem;
+  }
+  #yw_bg1 {
+    left: -10px;
+    bottom: -10px;
+  }
+  #yw_bg2 {
+    left: 30%;
+    bottom: -10px;
+  }
+  #yw_bg3 {
+    right: -10px;
+    bottom: -10px;
+  }
+  .card_test {
+    width: 100%;
+  }
+}

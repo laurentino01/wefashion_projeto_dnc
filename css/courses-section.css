@@ -1,0 +1,245 @@
+#courses-section {
+  background-color: #152536;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+#courses-section #TituloCursos {
+  font-weight: 700;
+  font-size: 62px;
+  color: #f0f0f0;
+  text-align: center;
+}
+
+#courses-section #TituloCursos2 {
+  text-align: center;
+  display: none;
+}
+
+#courses-section b {
+  color: #feae11;
+}
+
+#courses-section #Info {
+  padding-top: 50px;
+  display: grid;
+  grid-auto-flow: column;
+}
+
+#courses-section #TextWeek {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  color: #f0f0f0;
+  margin-right: 25px;
+  margin-top: 10px;
+  text-align: end;
+}
+
+#courses-section #TextTime {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  color: #f0f0f0;
+  text-align: start;
+}
+
+#courses-section #Cursos {
+  display: grid;
+  grid-auto-flow: column;
+  margin-top: 50px;
+}
+
+#courses-section #Courses {
+  font-family: "Manjari", sans-serif;
+  font-size: 22px;
+  color: #f0f0f0;
+  line-height: 50px;
+  padding-top: 50px;
+  text-align: end;
+  margin-right: 50px;
+}
+
+#courses-section #Courses2 {
+  display: none;
+}
+
+#courses-section a:hover {
+  cursor: pointer;
+}
+
+#courses-section #malhaTXT {
+  background-color: #feae11;
+  color: black;
+}
+
+#courses-section .card {
+  width: 85%;
+}
+
+#courses-section #aluna {
+  margin-top: 40px;
+}
+
+#courses-section #planoIMG,
+#courses-section #estilismoIMG,
+#courses-section #croquiIMG {
+  display: none;
+}
+
+#courses-section #aluna_plano,
+#courses-section #aluna_estilismo,
+#courses-section #aluna_croqui {
+  display: none;
+}
+
+#courses-section #Servicos {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#courses-section #TituloServicos {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 62px;
+  color: #f0f0f0;
+}
+
+#courses-section #TituloServicos2 {
+  display: none;
+}
+
+#courses-section #servicoIMG {
+  width: 35%;
+}
+
+#courses-section #matricula {
+  font-size: 25px;
+  font-weight: 600;
+  color: #f0f0f0;
+  background-color: #feae11;
+  border-radius: 15px;
+  border: none;
+  width: 200px;
+  height: 70px;
+  cursor: pointer;
+}
+
+/* Estilos para tela com largura de até 768px */
+@media (max-width: 768px) {
+  #courses-section #TituloCursos {
+    display: none;
+  }
+
+  #courses-section #TituloCursos2 {
+    font-weight: 700;
+    font-size: 42px;
+    color: #feae11;
+    display: flex;
+    justify-content: center;
+  }
+
+  #courses-section b {
+    color: #feae11;
+    text-align: center;
+  }
+
+  #courses-section #Info {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #courses-section #TextWeek {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    color: #f0f0f0;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  #courses-section #TextTime {
+    margin-top: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    color: #f0f0f0;
+    text-align: center;
+  }
+
+  #courses-section #Cursos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  #courses-section #Courses {
+    display: none;
+  }
+
+  #courses-section #Courses2 {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  #courses-section .botao {
+    font-family: "Manjari", sans-serif;
+    color: #f0f0f0;
+    width: 70%;
+    height: 55%;
+    border-color: #feae11;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  #courses-section #malhaBT {
+    background-color: #feae11;
+    color: black;
+  }
+
+  #courses-section #planoBT,
+  #courses-section #croquiBT {
+    margin-top: 10px;
+  }
+
+  #courses-section .card {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #courses-section #aluna {
+    display: none;
+  }
+
+  #courses-section #Servicos {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  #courses-section #TituloServicos {
+    display: none;
+  }
+
+  #courses-section #TituloServicos2 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    color: #feae11;
+    display: flex;
+    justify-content: center;
+  }
+
+  #courses-section #servicoIMG {
+    width: 70%;
+  }
+
+  #courses-section #matricula {
+    font-size: 20px;
+    font-weight: 600;
+    color: #f0f0f0;
+    background-color: #feae11;
+    border-radius: 15px;
+    border: none;
+    width: 150px;
+    height: 50px;
+  }
+}

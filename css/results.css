@@ -1,8 +1,8 @@
 #results {
   position: relative;
   background-color: var(--background_site);
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 0px;
+  padding-bottom: 0%;
 }
 
 .results__courosel {

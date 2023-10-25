@@ -183,6 +183,7 @@
   #courses-section .botao {
     font-family: "Manjari", sans-serif;
     color: #f0f0f0;
+    background-color: var(--seondary-color);
     width: 70%;
     height: 55%;
     border-color: #feae11;

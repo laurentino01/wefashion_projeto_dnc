@@ -47,7 +47,7 @@ nav ul {
   gap: 25px;
 }
 
-.menu li a {
+.menu li a:not(button a) {
   text-decoration: none;
   color: #333333;
   font-weight: bold;
